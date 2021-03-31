@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: arial;
+}
+
+h3{
+	font-size: 40pt;
+	padding: 70px;
+}
+
+/*-------------MENU------------*/
+
+nav{
+	background-color: rgba(123,104,238);
+	height: 60px;
+}
+
+ul{
+	list-style: none;
+	float: right;
+	margin-right: 100px;
+}
+
+li{
+	display: inline-block;
+	line-height: 60px;
+	padding: 0px 10px;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover{
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+}
+
+/*---------------saudacao------------*/
+
+h2{
+	font-family: 'Charmonman', cursive;
+	font-size: 35pt;
+	padding: 50px;
+	font-weight: normal;
+}

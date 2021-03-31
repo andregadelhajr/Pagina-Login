@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: arial;
+	background-image: url("../IMAGENS/fundo.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+form{
+	width: 350px;
+	margin: 60px auto 10px auto;
+	background-color: white;
+	padding: 25px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,.4);
+	display: table;
+}
+
+input{
+	display: block;
+	width: 95%;
+	height: 30px;
+	font-size: 11pt;
+	color: rgba(0,0,0,.7);
+	padding: 5px;
+	margin-bottom: 15px;
+	outline: none;
+}
+
+h1{
+	font-size: 11pt;
+	padding: 10px;
+	font-weight: normal;
+	text-align: center;
+	margin-bottom: 30px;
+	background-color: rgba(123,104,238,.4);
+}
+
+input[type=submit]
+{
+	width: 100px;
+	height: 40px;
+	cursor: pointer;
+	background-color: rgb(123,104,238);
+	color: white;
+	border:none;
+	float: right;
+	box-shadow: 1px 1px 4px rgba(0,0,0,.4);
+}
+
+label{
+	display: block;
+}
+
+/*---------------mensagens de aviso----------*/
+
+.mensagem{
+	text-align: center;
+	background-color: rgba(0,0,0,.1);
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 15px;
+}

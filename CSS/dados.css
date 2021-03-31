@@ -1,0 +1,58 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: arial;
+}
+/*-------------MENU------------*/
+
+nav{
+	background-color: rgba(123,104,238);
+	height: 60px;
+}
+
+ul{
+	list-style: none;
+	float: right;
+	margin-right: 100px;
+}
+
+li{
+	display: inline-block;
+	line-height: 60px;
+	padding: 0px 10px;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover{
+	border-bottom: 1px solid white;
+	padding-bottom: 5px;
+}
+
+table{
+	width: 80%;
+	background-color: rgba(0,0,0,.1);
+	margin: 80px auto;
+	border-collapse: collapse;
+}
+
+tr#titulo{
+	background-color: rgba(0,0,0,.8);
+	color: white;
+	text-align: center;
+}
+
+tr{
+	height: 50px;
+	text-align: center;
+}
+
+td{
+	border: 1px solid black;
+}
